@@ -74,14 +74,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
- ʜᴇʏ, (https://telegra.ph/file/95a8d8b221d77f3af97af.jpg), ɪ'ᴍ ᴋᴀᴋᴀꜱʜɪ ʜᴀᴛᴀᴋᴇ. ᴀ ʜɪɢʜʟʏ ᴀᴅᴠᴀɴᴄᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ ʟᴏᴛꜱ ᴏꜰ ꜰᴇᴀᴛᴜʀᴇꜱ.
+ ʜᴇʏ, (https://telegra.ph/file/69d7d70c7667ef39994c4.jpg), ɪ'ᴍ ᴇʟᴢᴀ ʀᴏʙᴏᴛ. ᴀ ʜɪɢʜʟʏ ᴀᴅᴠᴀɴᴄᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ ʟᴏᴛꜱ ᴏꜰ ꜰᴇᴀᴛᴜʀᴇꜱ.
 `ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ! ᴊᴜꜱᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ, ᴘʀᴏᴍᴏᴛᴇ ᴍᴇ. ᴛʜᴇɴ ʏᴏᴜ ᴍᴜꜱᴛ ᴄʜɪʟʟ ᴀɴᴅ ᴇɴᴊᴏʏ ᴜꜱɪɴɢ ᴍᴇ.!! 😉
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text=" ➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ", url="t.me/HatakeRoBot?startgroup=true"),
+            text="  ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ", url="t.me/elza_robot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="kakashi_"),
@@ -90,13 +90,13 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="❓ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ❓", callback_data="help_back"),
+        InlineKeyboardButton(text="ʜᴇʟᴘ ", callback_data="help_back"),
     ],
 ]
 
 
 HELP_STRINGS = """
-`ʜᴇʏʏ.! ɪ'ᴍ` [ᴋᴀᴋᴀsʜɪ😉](https://telegra.ph/file/c346ff5f568a1cddbc3d6.jpg) 
+`ʜᴇʏʏ.! ɪ'ᴍ` [ᴇʟᴢᴀ](https://telegra.ph/file/69d7d70c7667ef39994c4.jpg) 
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`"""
 
 kakashi_IMG = "https://telegra.ph/file/8d6ca8f8e904519e57002.jpg"
@@ -189,7 +189,7 @@ def start(update: Update, context: CallbackContext):
                     update.effective_chat.id,
                     HELPABLE[mod].__help__,
                     InlineKeyboardMarkup(
-                        [[InlineKeyboardButton(text="⬅️ BACK", callback_data="help_back")]]
+                        [[InlineKeyboardButton(text="⬅️ ʙᴀᴄᴋ", callback_data="help_back")]]
                     ),
                 )
 
@@ -349,7 +349,7 @@ def yone_about_callback(update, context):
     query = update.callback_query
     if query.data == "yone_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *Kakashi Hatake*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *ᴇʟᴢᴀ ʀᴏʙᴏᴛ*, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
@@ -357,14 +357,14 @@ def yone_about_callback(update, context):
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_kakashi's licensed under the GNU General Public License v3.0_
-                 \nHere is the [💾Repository](https://github.com/MadBoy-X/Kakashi).
+                 \nHere is the [💾Repository](https://t.me/cat_of_tg).
                  \n\nIf you have any question about Kakashi Hatake, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Back", callback_data="yone_back")
+                    InlineKeyboardButton(text="«ʙᴀᴄᴋ", callback_data="yone_back")
                  ]
                 ]
             ),
@@ -384,8 +384,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Kakashi Hatake*
-                 \nHere is the [Source Code](https://github.com/MadBoy-X/Kakashi) .""",
+            text=""" Hi..🤗 I'm *ᴇʟᴢᴀ ʀᴏʙᴏᴛ*
+                 \nHere is the [Source Code](https://t.me/cat_of_tg) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
