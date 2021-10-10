@@ -27,12 +27,12 @@
 </p>
 
 # KAKASHI
-Me On Telegram [✨Kakashi✨](https://t.me/HatakeRoBot)
+Me On Telegram [ᴇʟᴢᴀ](https://t.me/elza_RoBot)
 
 
 # Dᴇᴘʟᴏʏ:-
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FMadBoy-X%2FKakashi&template=https%3A%2F%2Fgithub.com%2FMadBoy-X%2FKakashi)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fcat-of-tg%2FKakashi&template=https%3A%2F%2Fgithub.com%2Fcat-of-tg%2FKakashi)
 
 
 # Sᴛʀɪɴɢ Sᴇssɪᴏɴ:-
